@@ -5,24 +5,25 @@ $(function(document){
     var participante = prompt("INFORME SEUS NOME PARA PARTICIPAR!");
 
 
-    if(participante != '') {
-    
-      alert($(".comeca").val());
+      if(participante != '') {
       
+
+        $.get('../Model/Digiticao/getDigitacao', function(result) {
+          console.log(result);
+
+        });
+
+      }
+    
+    });
+  
+
       $("#painel_de_digitacao").show();
-    }
 
   });
   
 
 
-
-  $("#input-frase").blur(function(){
-
-  });
-
-
-});
 
 function inicializaMarcadores()
 {

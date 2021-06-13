@@ -18,7 +18,7 @@
 
      
     } catch(PDOException $excption ) {
-      
+
     }
 
 ?>
@@ -71,7 +71,7 @@
                       <li class="collection-item avatar">
                         <img src="img/rc.jpg" alt="" class="circle">
                         <span class="title"><strong>Racionais MC's</strong></span>
-                        <p>Jesus Chorou</p>
+                        <p> </p>
                         <a  class="secondary-content comeca"><a class="waves-effect waves-light red btn-small comeca">Começar</a></a>
                       </li>
                   
@@ -79,7 +79,7 @@
                       <li class="collection-item avatar">
                         <img src="img/zc.jpg" alt="" class="circle">
                         <span class="title"><strong>Zé Neto e Cristiano</strong></span>
-                        <p>Largado às traças</p>
+                        <p> </p>
                         <a  class="secondary-content comeca"><a class="waves-effect waves-light red btn-small comeca">Começar</a></a>
                       </li> -->
                     
