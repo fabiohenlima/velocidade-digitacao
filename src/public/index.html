@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/libs/google-fonts.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/libs/materialize.min.css">
+    <title>Projetinho de JQuery</title>
+</head>
+
+<body>
+    <div class="card">
+        <div style="background-image: url(/src/public/img/digitacao-imagem.jpeg);"></div>
+        <div class="card-image waves-effect waves-block waves-light">
+
+            <div class="container">
+                <br>
+                    <img src="https://gflex.inforgeneses.com.br/images/img_sistema/036/logoSap.jpg" style="width:200px;">
+                <br>
+                    <h5>Frase de uma Música <i class="material-icons">music_note</i></h5>
+                <hr>
+                    <p class="frase">Tô namorando todo mundo! 99% anjo, perfeito, mas aquele 1% é vagabundo. Mas aquele 1% é vagabundo. Safado e elas gostam.</p>
+                <hr>
+                <br>
+                <ul class="informacoes center">
+                    <li>
+                        <i class="small material-icons icones">av_timer</i>
+                        <span id="tempo-digitacao">10</span> Segundos
+                    </li>
+                </ul>
+        
+        </div>
+        <div class="card-content">
+
+            <textarea class="campo-digitacao" rows="8" cols="40"></textarea>
+            <!-- <hr> -->
+                <div style="margin-left: 50%;">
+                    <a id="botao-reiniciar" class="btn-floating btn-large waves-effect waves-light red">
+                        <i class="material-icons">restore</i>
+                    </a>
+                    <ul>
+                        <li><span id="contador-caracteres">0</span> caracteres</li>
+                        <li><span id="contador-palavras">0</span> palavras</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <hr> -->
+        </div>
+      </div>
+
+    <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="img/digitacao-imagem.jpeg" style="width:1200px; ; height:300px;">
+        </div>
+        <div class="card-content">
+            <section class="placar">
+                <h5 class="center"><i class="material-icons">new_releases</i>Ranking</h5>
+                <table class="centered bordered">
+                    <thead>
+                        <tr>
+                            <th>Participante</th>
+                            <th>Pontuação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+      </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/function.js"></script>
+</body>
+
+</html>
